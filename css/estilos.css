@@ -1,0 +1,225 @@
+.principal_fondo{
+    width:100%;
+    height: 100%;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 10%;
+    background-image: url('../img/fondo.png');
+    background-size: cover;
+    position:fixed !important; 
+    right:0px; 
+    top:0px; 
+    z-index:-10 !important
+}
+.principal{
+    width:100%;
+    height: 100%;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+.contenido_principal{
+    width:100%;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(31, 59, 111, 0.08);
+}
+.logo{
+    position: absolute;
+    top:10%;
+    right: 9%;
+    width: 200px;
+}
+.leyenda{
+    margin-left: 5%;
+    padding-top: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00abff;
+}
+.botonnuevo{
+    position: absolute;
+    right: 12%;
+    top: 24%;
+}
+.plus{
+    width: 30px;
+    display: inline;
+}
+.plus2{
+    width: 60px;
+    display: inline;
+}
+.hr{
+    color: rgba(0, 53, 255, 0.53);
+    background-color: rgba(0, 53, 255, 0.53);
+    height: 5px;
+}
+.hrn{
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 1);
+    height: 2px;
+}
+.tabla_ventas{
+    width: 96%;
+    margin-left: 2%;
+}
+.tabla_ventas th{
+    background-color: rgba(18, 94, 208, 0.32);
+    color :blue;
+    font-size: 12px;
+    height: 30px;
+}
+.tabla_ventas td{
+   background-color: rgba(179, 183, 191, 0.25);
+   border-bottom: 0.5px rgba(49, 52, 56, 0.16) solid;
+}
+.nueva_venta{
+    width:100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    background-color: rgba(31, 59, 111, 0.08);
+}
+.encabezado{
+    width:100%;
+    height: 30px;
+    background-color: rgba(20, 102, 202, 0.8);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 14px;
+    color: white;
+}
+.folio{
+    width:100%;
+    height: 30px;
+    padding-top: 5px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+    text-align: right;
+}
+.cliente{
+    width: 300px;
+    display: inline;
+    padding: 10px;
+    border: #a8d4b1 1px solid;
+    border-radius:4px;
+}
+.articulo{
+    width: 300px;
+    display: inline;
+    padding: 10px;
+    border: #a8d4b1 1px solid;
+    border-radius:4px;
+}
+.input_cantidad{
+    width: 50px;
+    border: #a8d4b1 1px solid;
+    border-radius:4px;
+    text-align: center;
+}
+.clientediv{
+    width: 90%;
+    margin-left: 5%;
+}
+.articulodiv{
+    width: 90%;
+    margin-left: 5%;
+}
+.clientelabel{
+    background-color: rgba(0, 0, 255, 0.74);
+    width: 80px;
+    height: 33px;
+    padding-left: 18px;
+    padding-top: 9px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+}
+.articulolabel{
+    background-color: rgba(0, 0, 255, 0.74);
+    width: 80px;
+    height: 33px;
+    padding-left: 17px;
+    padding-top: 9px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+}
+.tabla_registro{
+    width: 100%;
+    margin-top: -20px;
+}
+.tabla_registro th{
+    background-color: rgba(195, 195, 195, 0.51);
+    color :black;
+    font-size: 12px;
+    height: 30px;
+}
+.totales{
+    width: 30%;
+     margin-left: 58%;
+}
+.enganchelabel{
+    background-color: rgba(195, 195, 195, 0.90);
+    width: 90px;
+    height: 33px;
+    padding-left: 17px;
+    padding-top: 9px;
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;
+}
+.bonificacionlabel{
+    background-color: rgba(195, 195, 195, 0.90);
+    width: 173px;
+    height: 33px;
+    padding-left: 17px;
+    padding-top: 9px;
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;
+}
+.totallabel{
+    background-color: rgba(195, 195, 195, 0.90);
+    width: 173px;
+    height: 33px;
+    padding-left: 17px;
+    padding-top: 9px;
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;  
+}
+.botones{
+     float: right;
+    margin-top: 10px;
+}
+#cliente-list{float:left;list-style:none;margin-top:35px;left:35.5%; padding:0;width:300px;position: absolute;display: inline;}
+#cliente-list li{padding: 10px; background: #f0f0f0; border-bottom: #bbb9b9 1px solid;}
+#cliente-list li:hover{background:#ece3d2;cursor: pointer;}
+#articulo-list{float:left;list-style:none;margin-top:35px;left:35.5%; padding:0;width:300px;position: absolute;display: inline;}
+#articulo-list li{padding: 10px; background: #f0f0f0; border-bottom: #bbb9b9 1px solid;}
+#articulo-list li:hover{background:#ece3d2;cursor: pointer;}
+.encabezadopago{
+    text-align: center;
+    height: 30px;
+    background-color:rgba(128, 171, 234, 0.65);
+    padding-top: 7px;
+    color: #0e0e90;
+    font-weight: bold;
+}
+.tablapagos{
+    width: 100%;
+}
+.tablapagos td{
+   background-color: rgba(179, 183, 191, 0.25);
+   border-bottom: 0.5px rgba(49, 52, 56, 0.16) solid;
+}
+.tablapagos tr{
+   cursor: pointer;
+}
